@@ -11,3 +11,6 @@ while command != "end":
     if command == "3":
         print("Завершение работы чата.")
         break
+    if command == " ":
+        print("Такой команды нет. Завершение работы чата.")
+        break
